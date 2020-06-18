@@ -3,7 +3,7 @@ An introductory Web Development project made for building familiarity with JavaS
 
 ## Subprojects
 This project is a collection of *subprojects*, each of which relates
-to one source for tutorials on JavaScript/CSS/HTML (and other Web Dev. technologies).
+to one tutorial on JavaScript/CSS/HTML (and other Web Dev. technologies).
 
 #### links to tutorials:
 - [clever_programmer](https://www.youtube.com/watch?v=Qqx_wzMmFeA&t=2618s) 
