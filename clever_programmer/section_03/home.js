@@ -14,4 +14,4 @@ function warning() {
 // calls newly created function
 warning();
 
-// examples of some datatypes
+// examples of some JavaScript data types:
