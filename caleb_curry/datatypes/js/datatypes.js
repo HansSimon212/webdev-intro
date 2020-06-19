@@ -1,6 +1,6 @@
+// declaring and performing simple operations on primitives
+// to see what happens
 function testPrimitives() {
-    // declaring and performing simple operations on primitives
-    // to see what happens
     let x = true;
     let y = 10;
     let z = "Hello";
@@ -15,32 +15,28 @@ function testPrimitives() {
     console.log(xy);
     console.log(xz);
     console.log(yz);
-
 }
 
 // testPrimitives();
 
-// cat object
-let cat = {
-    name: 'Kitty',
+// A Cat is the following:
+let cat1 = {
+    name: 'Chase',
     age: 11,
-    furColor: 'brown',
-    updateFurColor: function (newColor) {
+    furColor: 'Brown',
+    updateFurColor:
+    // String -> Void
+    // SIDE EFFECT: updates the fur color of this cat
+        function(newColor) {
         this.furColor = newColor;
     }
 };
+// and represents a terrestrial cat
 
-function update() {
-    cat.updateFurColor(15);
-    console.log(cat.furColor);
-}
-
-//update();
-
-// prototype chain: in effect JS inheritance
-
+// testing behavior of string methods
 {
     let firstName = "hans";
     firstName = firstName.toString();
     console.log(firstName);
 }
+
