@@ -38,15 +38,16 @@ function testArrs2() {
 // testArrs2();
 
 /**
- * userAppendToArray: Array Number -> Array
+ * userAppendToArray: Array PosInt -> Array
  * Reads in at maximum numEls elements from user and appends to end of given array.
  * @function
  * @param {Array} arr - The array being filled.
  * @param {number} numEls - Max number of elements a user can add to the end of the array
+ * @throws if a non-positive max number of elements to be added is given
  */
 function userAppendToArray(arr, numEls) {
-    let n = 0; // number of elements read in
-    while (n < numEls) {
+    let cnt = 0; // number of elements successfully added to given array
+    while (cnt < numEls) {
         let input = prompt("Enter a number. Press 'q' to quit");
         if (!input || input === 'q') {
             break;
@@ -56,11 +57,12 @@ function userAppendToArray(arr, numEls) {
             continue;
         }
         arr.push(parsed);
-        n += 1;
+        cnt += 1;
     }
 }
 
 {
+    // testing userAppendToArray function
     let empty = [];
     userAppendToArray(empty, 4);
     console.log(empty);
@@ -69,6 +71,7 @@ function userAppendToArray(arr, numEls) {
     userAppendToArray(nums, 1);
     console.log(nums);
 
+    // altering length, making sure append happens at end
     nums.length = 10;
     userAppendToArray(nums, 3);
     console.log(nums);
