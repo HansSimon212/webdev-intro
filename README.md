@@ -10,7 +10,7 @@ to one tutorial on JavaScript/CSS/HTML (and other Web Dev. technologies).
 - [caleb_curry](https://www.youtube.com/watch?v=9M4XKi25I2M&t=301s)
 
 
-####descriptions of each subproject:
+#### descriptions of each subproject:
 * clever_programmer (progress: 1hr/8hrs):
 This is the first "Full Course" JavaScript tutorial I looked at. It seemed a little too basic and slow-paced, so I moved on to caleb_curry.
 * caleb_curry (progress: ...): Second "Full Course" JavaScript tutorial. More advanced than clever_programmer and provides more thorough explanations of complex web development concepts.
