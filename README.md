@@ -1,8 +1,8 @@
 # webdev_intro
 An introductory Web Development project made for building familiarity with HTML, CSS, JavaScript, Bootstrap.
----
 
-### **Project Structure**:
+
+#### **Project Structure**:
 The top level directory of this project contains folders for each of {HTML+CSS, JavaScript, Bootstrap}.
 Each of these folders contain work done while watching tutorials/following along with courses on their respective topic.
 
