@@ -8,31 +8,103 @@
     <title>Linear Algebra: Easily Explained</title>
 </head>
 
-<body style="background-color:crimson; text-align: center;">
-    <header>
-        <h1>Linear Algebra: Easily Explained</h1>
-        <h3>Intuitive explanations for college level linear algebra.</h3>
+<body style="background-color: #0d6647;">
+
+    <header style="display:block; background-color:grey; padding: 2%;
+    align-content: center; justify-content: center; text-align: center;">
+        <h1 style="color: white;">Linear Algebra: Easily Explained</h1>
+        <h3 style="color: white">Intuitive explanations for college level linear algebra.</h3>
         <nav>
-            <ul>
+            <ul style="list-style-type: none; margin: 0; padding: 0">
                 <big>
-                    <li><a href="#"> <b>Home</b> </a></li>
+                    <li style="display:inline; padding: 20px;"><a href="#"> <b>Home</b> </a></li>
                 </big>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
+                <li style="display:inline; padding: 20px;"><a href="about.html">About</a></li>
+                <li style="display:inline; padding: 20px;"><a href="contact.html">Contact Us</a></li>
             </ul>
         </nav>
     </header>
 
-    <main>
-        <br>
-        <hr>
-        <br>
-        <a href="kemba.jpeg" target="_blank">Picture of a goat</a>
-        <br><br>
-        <img src=" https://i.insider.com/5c01151741cfd811524f80f4?width=11format=jpeg&auto=webp" alt="Image not found.">
-        <br><br><br>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/_bv8hjlRg88" frameborder="0"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <main style="align-content: center; justify-content: center; text-align: center;  padding: 12%;">
+
+        <!--Contains player headshots (which are links to their Basketball Reference pages)-->
+        <div class="player-images"
+            style="display: grid; grid-template-columns: auto auto auto; grid-template-rows: auto auto auto;column-gap: 6%; row-gap: 6%;">
+
+            <div class="player-picture-stats"
+                style="border: 5px  #000000; background-color: white; min-width: 100; max-width: 500; flex: 0; display: inline-flexbox; border-radius: 25px; padding: 20px; text-align: center; align-content: center; justify-content: center;">
+                <a href="https://www.basketball-reference.com/players/t/tatumja01.html" target="_blank">
+                    <img src="images/jt_head.png" alt="Jayson Tatum in-game, smiling." width="250">
+                </a>
+                <br>
+                <h4>Jayson Tatum</h4>
+            </div>
+
+            <div class="player-picture-stats" style="border: 5px solid #000000; background-color: white; min-width: 100; max-width: 500; flex: 1;
+                display: inline-flexbox; border-radius: 25px; padding: 20px;">
+                <a href="https://www.basketball-reference.com/players/w/walkeke02.html" target="_blank">
+                    <img src="images/kemba_head.png" alt="Kemba Walker in-game, swaggering." width="250">
+                </a>
+                <br>
+                <h4>Kemba Walker</h4>
+            </div>
+
+            <div class="player-picture-stats" style="border: 5px solid #000000; background-color: white; min-width: 100; max-width: 500; flex: 1;
+                display: inline-flexbox; border-radius: 25px; padding: 20px;">
+                <a href="https://www.basketball-reference.com/players/w/walkeke02.html" target="_blank">
+                    <img src="images/kemba_head.png" alt="Kemba Walker in-game, swaggering." width="250">
+                </a>
+                <br>
+                <h4>Kemba Walker</h4>
+            </div>
+
+            <div class="player-picture-stats" style="border: 5px solid #000000; background-color: white; min-width: 100; max-width: 500; flex: 1;
+                display: inline-flexbox; border-radius: 25px; padding: 20px;">
+                <a href="https://www.basketball-reference.com/players/w/walkeke02.html" target="_blank">
+                    <img src="images/kemba_head.png" alt="Kemba Walker in-game, swaggering." width="250">
+                </a>
+                <br>
+                <h4>Kemba Walker</h4>
+            </div>
+
+            <div class="player-picture-stats" style="border: 5px solid #000000; background-color: white; min-width: 100; max-width: 500; flex: 0;
+                display: inline-flexbox; border-radius: 25px; padding: 20px;">
+                <a href="https://www.basketball-reference.com/players/t/tatumja01.html" target="_blank">
+                    <img src="images/jt_head.png" alt="Jayson Tatum in-game, smiling." width="250">
+                </a>
+                <br>
+                <h4>Jayson Tatum</h4>
+            </div>
+        </div>
+
+        <div class="favorite-player?" style="margin-top: 20%;">
+            <h4>Who is your favorite Celtic?</h4>
+            <ul style="list-style-type: none; margin: 0; padding: 0;">
+                <li>
+                    <div class="player-choice"
+                        style="align-content: center; justify-content: center; text-align: center;">
+                        <input type="radio" name="player-choices">
+                        Jayson Tatum
+                    </div>
+                </li>
+
+                <li>
+                    <div class="player-choice"
+                        style="align-content: center; justify-content: center; text-align: center;">
+                        <input type="radio" name="player-choices">
+                        Kemba Walker
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <div class="input-date" style="padding-top: 10%">
+            Input today's date for a surprise:
+            <div class="date-box" style="padding-left: 3%; padding-top: 1%;">
+                <input type=" date">
+            </div>
+        </div>
+
     </main>
 
     <footer>
