@@ -5,12 +5,10 @@
 
 /* Element Selector: applies styles to elements of the specified type (p/a/html) */
 header {
-  background: rgba(0, 0, 0, 1)
-    url("../images/backgrounds/blue_bars_vertical.jpg");
-
+  background: url("../images/backgrounds/pink_blue_gradient.png") no-repeat
+    scroll center top;
   font-size: large;
   color: white;
-
   text-align: center;
 }
 
@@ -21,4 +19,16 @@ header {
   width: 20%;
   border: 3px solid black;
   border-radius: 25px;
+}
+
+p.dotted {
+  border-style: dotted;
+  border-width: thick medium;
+}
+
+p.comment {
+  border-style: none none none solid;
+  border-width: thick;
+  border-color: rgba(0, 191, 255, 1);
+  background-color: rgba(0, 191, 255, 0.2);
 }
