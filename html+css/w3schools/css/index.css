@@ -1,46 +1,55 @@
 /* Universal Selector: applies styles to all HTML elements on the page. */
 * {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   text-align: center;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0;
 }
 
-/* Element Selector: applies styles to elements of the specified type (p/a/html) */
+body {
+  background-color: skyblue;
+}
+
 header {
-  background: url("../images/backgrounds/pink_blue_gradient.png") no-repeat
-    scroll center top;
-  font-size: large;
-  color: white;
+  background: rgba(255, 255, 255, 0.15)
+    url("../images/backgrounds/alexander-schimmeck-ineC_oi7NHs-unsplash.jpg")
+    no-repeat scroll center center;
+  background-size: cover;
+  background-blend-mode: lighten;
+
+  padding: 3vh 0;
+
   text-align: center;
+  align-content: center;
+  justify-content: center;
 }
 
-/* Class Selector: applies styles to a class of elements. */
-.player {
-  max-width: 20rem;
-  margin: auto;
-  border-radius: 2rem;
+.topnav,
+.title {
+  display: inline-block;
+  width: 100vw;
+  background: rgba(255, 255, 255, 0.9);
+  text-align: center;
+  align-content: center;
 }
 
-.white-background {
-  background-color: white;
+.title {
+  margin-bottom: 1vh;
 }
 
-.celtics-green-background {
-  background-color: rgba(0, 122, 51, 0.8);
+.topnav a {
+  float: left;
+  color: rgba(30, 144, 255, 1);
+  text-align: center;
+  border-radius: 0.5vmax;
+  text-decoration: none;
+  font-size: x-large;
+  width: 25vw;
 }
 
-.black-border {
-  border: medium solid black;
-}
-
-.player-images-section,
-.comment-section,
-.favorite-player-section,
-.input-date-section {
-  margin: 3rem 3rem;
-}
-.comment {
-  display: inline;
-  color: #ffffff;
-  margin: 0rem 1.25rem;
-  border-radius: 0.4rem;
+.topnav a:hover {
+  background-color: rgba(30, 144, 255, 0.8);
+  color: white;
 }
