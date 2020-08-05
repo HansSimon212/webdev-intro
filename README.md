@@ -11,9 +11,8 @@ Each of these folders contain work done while watching tutorials/following along
 
 - HTML+CSS: 
   1. [giraffe_academy](https://www.youtube.com/watch?v=pQN-pnXPaVg)
+  2. [W3Schools HTML](https://www.w3schools.com/html/default.asp) [W3Schools CSS](https://www.w3schools.com/css/default.asp)
 
 - Javascript:
   1. [clever_programmer](https://www.youtube.com/watch?v=Qqx_wzMmFeA&t=2618s) 
   2. [caleb_curry](https://www.youtube.com/watch?v=9M4XKi25I2M&t=301s)
-  
-- Bootstrap
