@@ -1,4 +1,4 @@
-# webdev_intro
+# webdev-intro
 An introductory project for Web Development made for building familiarity with HTML, CSS, JavaScript, Bootstrap.
 
 
