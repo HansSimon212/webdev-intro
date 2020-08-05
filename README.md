@@ -1,5 +1,5 @@
 # webdev-intro
-An introductory project for Web Development made for building familiarity with HTML, CSS, JavaScript
+An introductory project for Web Development made for building familiarity with HTML, CSS, and Javascript.
 
 
 #### **Project Structure**:
