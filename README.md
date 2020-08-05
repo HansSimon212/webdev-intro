@@ -3,7 +3,7 @@ An introductory project for Web Development made for building familiarity with H
 
 
 #### **Project Structure**:
-The top level directory of this project contains folders for each of {HTML+CSS, JavaScript, Bootstrap}.
+The top level directory of this project contains folders for each of {HTML+CSS, JavaScript}.
 Each of these folders contain work done while watching tutorials/following along with courses on their respective topic.
 
 ---
