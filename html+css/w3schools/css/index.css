@@ -26,17 +26,21 @@ header {
   justify-content: center;
 }
 
+.title {
+  margin-bottom: 1vh;
+}
+
+.topnav {
+  display: inline-flex;
+}
+
 .topnav,
 .title {
-  display: inline-block;
   width: 100vw;
   background: rgba(255, 255, 255, 0.9);
   text-align: center;
   align-content: center;
-}
-
-.title {
-  margin-bottom: 1vh;
+  justify-content: center;
 }
 
 .topnav a {
